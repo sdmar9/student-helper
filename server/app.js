@@ -2,6 +2,12 @@ Assessment = require('./javascript/Assessment.js');
 Class = require('./javascript/Class.js');
 
 
+
+
+
+
+
+
 var quiz = new Assessment("Quiz", 5, 5);
 var assignment = new Assessment("Assignment", 5, 15);
 var lab = new Assessment("Lab", 9, 10);
@@ -15,3 +21,4 @@ console.log(math.getMarksEarned());
 console.log(math.getMarksAvailable());
 console.log(math.getMarksRequired());
 console.log(math.getPercentageRequired());
+
